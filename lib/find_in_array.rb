@@ -4,7 +4,7 @@ def find_element_index(array, value_to_find)
     size.times do |index|
       if array[index] == value_to_find
         return index
-      else 
+      else
         return nil
     end
 end
