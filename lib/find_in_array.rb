@@ -1,12 +1,11 @@
 def find_element_index(array, value_to_find)
-  Add your solution here
-    size = array.size
-    size.times do |index|
-      if array[index] == value_to_find
-        return index.to_i
-      else
-        return nil
-      end
+  value = nil
+  size = array.size
+  size.times do |index|
+    if array[index] == value_to_find
+      return value = index 
     end
+  end
+  value
   # array.index(value_to_find)
 end
